@@ -1,4 +1,3 @@
-import { div } from 'three/tsl';
 import { my_projects, my_projects_actu, coding, design, CMS } from './data_projects.min.js';
 
 document.addEventListener("DOMContentLoaded", function () {
