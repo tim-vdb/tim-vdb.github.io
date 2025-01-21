@@ -1,0 +1,110 @@
+/* --------------------------Main Index--------------------------- */
+section {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    max-width: 1420px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#actu_projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+header {
+    height: 100svh;
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 100%;
+    }
+}
+
+#div_fixed {
+    opacity: 0;
+}
+
+/* Optionnel : style pour le texte dans le bouton */
+.button-text {
+    display: inline-block;
+    text-wrap: nowrap;
+    padding: 0 20px;
+}
+
+/* skills */
+#skills_cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    border-radius: 5px;
+    padding: 0px;
+    width: 100%;
+}
+
+#skills_cards .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 15px;
+    transform: scale(1);
+    transition: all 0.4s;
+    box-shadow: 0px 10px 10px black;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    #skills_cards .cards:hover {
+        transform: scale(1.1);
+    }
+}
+
+#skills_cards .cards img {
+    width: 140px;
+    height: 50px;
+    object-fit: contain;
+}
+
+#skills_cards .cards h4 {
+    margin: 0;
+    text-decoration: none;
+}
+
+@media (max-width: 1480px) {
+    #skills_cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 880px) { 
+    #skills_cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    #skills_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skills_cards .cards img {
+        width: 160px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    #skills_cards .cards h4 {
+        font-size: var(--type-heading-h3-font-size-mobile);
+    }
+}

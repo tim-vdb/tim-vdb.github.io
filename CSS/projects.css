@@ -1,0 +1,247 @@
+section {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    max-width: 1420px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 90%;
+}
+
+#filter {
+    display: flex;
+    gap: 20px;
+}
+
+#filter_manage {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+#input_filter_all {
+    border: 10px double var(--new_color_gris);
+    text-wrap: nowrap;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.custom-button input[type="checkbox"] {
+    cursor: pointer;
+    filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+    margin-right: 20px;
+}
+
+#filter_manage button, #filter_manage label {
+    height: 65px;
+}
+
+
+/* Style pour le bouton visuel */
+.custom-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    box-sizing: border-box;
+    border: 10px double var(--new_color_gris);
+    border-radius: 10px;
+    min-width: 100%;
+    transform: scale(1);
+    transition: 0.4s all;
+}
+
+.active_input {
+    transform: scale(0.8);
+}
+
+/* Optionnel : style pour le texte dans le bouton */
+.button-text {
+    display: inline-block;
+    text-wrap: nowrap;
+    padding: 0 20px;
+}
+
+#filter_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+    padding: 0;
+}
+
+#filter_cards li {
+    position: relative;
+    list-style-type: none;
+    border: 3px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#filter_cards .infos_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    box-sizing: border-box;
+    padding: 10px;
+    border-top: 3px dashed var(--new_color_orange);
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+.infos_cards::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(219, 116, 15, 0.6);
+    z-index: 1;
+    transition: bottom 0.4s ease-in-out;
+}
+
+@media (hover: hover) {
+    #filter_cards li:hover .infos_cards::after {
+        bottom: 0;
+    }
+
+    .infos_cards .content a:hover {
+        background-color: rgb(58, 58, 58);
+    }
+
+    #filter_cards li:hover .infos_cards .content a {
+        border: 3px solid white;
+    }
+}
+
+.infos_cards > * {
+    position: relative;
+    z-index: 2;
+}
+
+.infos_cards .content a {
+    width: fit-content;
+    background-color: var(--new_color_gris);
+    border: 3px solid var(--new_color_orange);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s all;
+}
+
+#filter_cards li a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.infos_tags ion-icon {
+    font-size: 3rem;
+    clip-path: circle(40%);
+    background-color: var(--new_color_gris);
+}
+
+#filter_cards .infos_tags {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.all_tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 0;
+    text-align: end;
+    box-sizing: border-box;
+}
+
+#filter_cards .tags_cards {
+    margin: 0;
+}
+
+#filter_cards img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+@media (max-width: 1130px) {
+    #filter {
+        display: flex;
+        gap: 20px;
+    }
+
+    #filter_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+
+    #filter_cards .infos_cards {
+        height: fit-content;
+    }
+
+    .custom-button {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 950px) {
+    #filter_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    #filter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #filter_manage {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #filter_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+
+    #filter_manage button, #filter_manage label {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #filter_cards .infos_tags {
+        padding: 0px;
+        margin-top: 20px;
+    }
+}

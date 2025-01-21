@@ -1,0 +1,252 @@
+:root {
+    --bounce: linear(0 10%, 0 2.27%, 0.02 4.53%, 0.04 6.8%, 0.06 9.07%, 0.1 11.33%, 0.14 13.6%, 0.25 18.15%, 0.39 22.7%, 0.56 27.25%, 0.77 31.8%, 1 36.35%, 0.89 40.9%, 0.85 43.18%, 0.81 45.45%, 0.79 47.72%, 0.77 50%, 0.75 52.27%, 0.75 54.55%, 0.75 56.82%, 0.77 59.1%, 0.79 61.38%, 0.81 63.65%, 0.85 65.93%, 0.89 68.2%, 1 72.7%, 0.97 74.98%, 0.95 77.25%, 0.94 79.53%, 0.94 81.8%, 0.94 84.08%, 0.95 86.35%, 0.97 88.63%, 1 90.9%, 0.99 93.18%, 0.98 95.45%, 0.99 97.73%, 1 100%);
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@property --angle-reverse {
+    syntax: "<angle>";
+    initial-value: 180deg;
+    inherits: false;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    max-width: 1420px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+section img {
+    max-width: 25%;
+    max-height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow: 1px 1px 1em var(--beige);
+    margin-left: 20px;
+}
+
+.year {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    place-items: center center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.timeline {
+    height: 100%;
+    width: 3px;
+    background-color: var(--new_color_orange);
+    position: absolute;
+}
+
+.right-line {
+    height: 3px;
+    width: 50%;
+    translate: -50%;
+    background-color: var(--new_color_orange);
+    position: relative;
+    z-index: -1;
+    margin-top: 50px;
+}
+
+.left-line {
+    height: 3px;
+    width: 50%;
+    translate: 50%;
+    background-color: var(--new_color_orange);
+    position: relative;
+    z-index: -1;
+    margin-top: 50px;
+}
+
+.infos-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.infos-2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.infos-3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.infos-4 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.left,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: var(--new_color_gris);
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 25svw;
+    max-width: 550px;
+    min-width: 300px;
+}
+
+.left p,
+.right p {
+    text-align: center;
+}
+
+.left::after,
+.left::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:
+        conic-gradient(from var(--angle), transparent 50%, var(--new_color_orange)),
+        conic-gradient(from var(--angle-reverse), transparent 50%, var(--new_color_orange));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 20px;
+    animation: 3s spin ease-in-out infinite alternate;
+}
+
+.right::after,
+.right::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:
+        conic-gradient(from var(--angle), transparent 50%, var(--new_color_orange)),
+        conic-gradient(from var(--angle-reverse), transparent 50%, var(--new_color_orange));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 20px;
+    animation: 3s 1.5s spin ease-in-out infinite alternate;
+}
+
+.left::before,
+.right::before {
+    filter: blur(1.5rem);
+}
+
+@keyframes spin {
+    from {
+        --angle: -90deg;
+        --angle-reverse: -270deg;
+        padding: 3px;
+    }
+
+    to {
+        --angle: 270deg;
+        --angle-reverse: 90deg;
+        padding: 10px;
+    }
+}
+
+.animTranslateLeft {
+    width: auto !important;
+}
+
+main ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    list-style-type: "- ";
+    margin: 0;
+}
+
+main li {
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 800px) {
+
+    .left-line,
+    .right-line {
+        display: none;
+    }
+
+    .left,
+    .right {
+        width: 250px;
+        min-width: 250px;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .year {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .infos-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .infos-2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .infos-3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .infos-4 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    @keyframes spin {
+        from {
+            --angle: 0deg;
+            --angle-reverse: -180deg;
+            padding: 3px;
+        }
+
+        to {
+            --angle: 180deg;
+            --angle-reverse: 0deg;
+            padding: 10px;
+        }
+    }
+
+    .left::before,
+    .right::before {
+        filter: blur(.5rem);
+    }
+}
