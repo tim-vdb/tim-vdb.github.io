@@ -6,11 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const divLeft_overview = document.getElementById("divLeft_overview");
     const filter_cards = document.getElementById("filter_cards");
     const preview_cards = document.getElementById("preview_cards");
-    const banner = document.querySelector('.banner');
-    const images = document.querySelectorAll('.all_item a');
-    const slider = document.querySelector('.slider');
     const btnTop = document.getElementById("btnTop")
-    const canvasLoader = document.getElementById("canvas");
     const loader = document.getElementById("canvas");
     const tags_input = document.querySelectorAll(".input_filter_tags");
     const all_input = document.getElementById("input_filter_all");
