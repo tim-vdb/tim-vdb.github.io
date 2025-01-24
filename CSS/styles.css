@@ -680,7 +680,7 @@ header .divLeft {
     box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     border: white 1px solid;
     border-radius: 10px;
     height: 100%;
