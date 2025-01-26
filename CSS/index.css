@@ -80,6 +80,45 @@ header {
     text-decoration: none;
 }
 
+#skills_sentences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills_sentences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills_sentences .cards {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 0;
+    gap: 50px;
+    margin-top: 20px;
+    scroll-snap-align: center;
+	padding-left:0.2em;
+}
+
+#skills_sentences img {
+    width: 2rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+#skillsPC {
+    display: flex;
+}
+
+#skillsMobile {
+    display: none;
+}
+
 @media (max-width: 1480px) {
     #skills_cards {
         grid-template-columns: repeat(3, 1fr);
@@ -96,6 +135,14 @@ header {
 @media (max-width: 550px) {
     #skills_cards {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skillsPC {
+        display: none;
+    }
+
+    #skillsMobile {
+        display: flex;
     }
 
     #skills_cards .cards img {

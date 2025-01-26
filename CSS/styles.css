@@ -57,6 +57,7 @@
 html {
     scroll-behavior: smooth;
     cursor: url('/images/curseur_petit.webp'), auto;
+    scroll-snap-type: y proximity;
 }
 
 /* --------------------------Body--------------------------- */
@@ -323,7 +324,6 @@ header .container_profil {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px solid var(--new_color_orange);
     padding-bottom: 25px;
 }
 
