@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
     <link rel="stylesheet" href="CSS/styles.min.css">
     <link rel="stylesheet" href="CSS/index.min.css">
-    <!-- <link rel="stylesheet" href="CSS/projects.min.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@1,500&family=Galindo&display=swap"
@@ -86,116 +85,20 @@
                     <li>
                         <div>
                             <ion-icon name="layers"></ion-icon>
-                            <p id="link_projects" class="projectsFilter">Projects</p>
+                            <p id="link_projects" class="projectsFilter">Projets</p>
                             <ion-icon id="ion_icon_projects" name="chevron-forward-outline"></ion-icon>
                         </div>
-                        <!-- <ul id="Projects_container">
-                            <li class="container_links">
-                                <div>
-                                    <ion-icon name="code-slash"></ion-icon>
-                                    <p class="nav_links">Coding Projects</p>
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div>
-                                            <img src="images/la_cissoniere.svg" alt="Logo La Cissonière" loading="lazy">
-                                            <p class="nav_links projectsOverview">La Cissonière</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/Logo_Quantix.svg" alt="Logo Quantix Horizon"
-                                                loading="lazy">
-                                            <p class="nav_links projectsOverview">Quantix Horizon</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/logo_2final.svg" alt="Logo ChocoSpace" loading="lazy">
-                                            <p class="nav_links projectsOverview">ChocoSpace</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/github/icon_minecraft.svg"
-                                                alt="Logo Wiki Minecraft Skyblock" loading="lazy">
-                                            <p class="nav_links projectsOverview">Wiki Minecraft Skyblock</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/montagnes.svg" alt="Logo Montagne" loading="lazy">
-                                            <p class="nav_links projectsOverview">Landing Page - LME</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="container_links">
-                                <div>
-                                    <ion-icon name="cube-outline"></ion-icon>
-                                    <p class="nav_links">Blender 3D</p>
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <img src="images/mustang_icon.svg" alt="Logo Voiture Mustang GT" loading="lazy">
-                                        <p class="nav_links projectsOverview">Fond d'écran 3D "Mustang GT"</p>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/montagnes.svg" alt="Logo Montagne" loading="lazy">
-                                            <p class="nav_links projectsOverview">Modèle 3D - La Montagne Enchantée</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/Logo_Quantix.svg" alt="Logo Quantix Horizon"
-                                                loading="lazy">
-                                            <p class="nav_links projectsOverview">Modèle 3D - Quantix Horizon</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/champignons.svg" alt="Icon champignons" loading="lazy">
-                                            <p class="nav_links projectsOverview">Paysage 3D procédural</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="container_links">
-                                <div><img src="images/gearedit.svg" alt="icon engrenage" loading="lazy">
-                                    <p class="nav_links">Projects in progress</p>
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div>
-                                            <img src="images/GraceGloire.svg" alt="Logo Grace et Gloire" loading="lazy">
-                                            <p class="nav_links projectsOverview">Grâce et Gloire</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/ferrari_icon.svg" alt="Logo voiture ferrari"
-                                                loading="lazy">
-                                            <p class="nav_links projectsOverview">Fond d'écran 3D "Ferrari Portofino"</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul> -->
                     </li>
                     <li>
                         <div>
                             <ion-icon name="school-sharp"></ion-icon>
-                            <a href="about-me" class="nav_links">À propos de moi</a>
+                            <a href="#aboutMe" class="nav_links closeMenu">À propos de moi</a>
                         </div>
                     </li>
                     <li>
                         <div>
                             <ion-icon name="chatbubbles"></ion-icon>
-                            <a href="contact " class="nav_links">Contacts</a>
+                            <a href="#formContact" class="nav_links closeMenu">Contacts</a>
                         </div>
                     </li>
 
@@ -241,11 +144,8 @@
                 </div>
             </div>
         </div>
-        <div id="divLeft_overview" class="divLeft">
-            <div id="contentOverview"></div>
-        </div>
         <div class="container_profil">
-            <div class="profil animTranslateLeft">
+            <div class="profil">
                 <img src="images/profile-pic2_sansFond.webp" alt="Photo de Timothée Van Den Bosch" loading="lazy">
                 <div class="moi_orange">
                     <h1>
@@ -255,7 +155,7 @@
                 </div>
             </div>
             <div class="presentation">
-                <div class="presentationText animTranslateRight">
+                <div class="presentationText">
                     <p class="statut">Étudiant & Apprenti :</p>
                     <p class="statut vague"><span class="orange"><span class="antiwrap">Développeur</span> <span
                                 class="antiwrap">Full</span> <span class="antiwrap">Stack</span></span></p>
@@ -266,7 +166,8 @@
                         <span class="orange">Développeur Full Stack</span>.
                     </p>
                 </div>
-                <a href="images/CV_Timothée_VanDenBosch.pdf" class="animTranslateBottom commonButton">Voir
+                <a href="images/CV_Timothée_VanDenBosch.pdf" target="_blank"
+                    class="animTranslateBottom commonButton">Voir
                     mon CV !</a>
             </div>
         </div>
@@ -274,83 +175,115 @@
 
     <main>
         <section>
-            <!-- <div class="animTranslateLeft">
-                <h2 class="vague">À propos de moi</h2>
-                <h3>Découverte de ma passion :</h3>
-
-                <p>C'est en classe de <span class="orange">Première</span>, au lycée, que j'ai découvert ma passion pour
-                    le
-                    développement via la <span class="orange">Spécialité NSI</span>
-                    (Numérique et Sciences Informatiques), à partir de là tout s'est déclenché petit à petit.</p>
-                <p>C'est par cette matière que je découvre la joie de travailler sans avoir à souffler d'ennuies.</p>
-                <h4>Mes projets en NSI :</h4>
-                <p>J'ai développé <a href="Wiki-MC-SB ">un site web</a> dédié au jeu vidéo <span
-                        class="orange">Minecraft</span> sur le mode Skyblock en utilisant Markdown sur GitHub.
-                </p>
-            </div>
-        </section>
-        <section>
-            <div class="animTranslateLeft">
-                <h3>Étudiant à MyDigitalSchool :</h3>
-                <p>En septembre 2023, j'ai eu la chance d'intégrer <span class="orange">MyDigitalSchool Lyon</span>, une
-                    nouvelle étape dans mon parcours de formation.</p>
-                <p>Cette école possède <span class="orange">trois domaines</span> d'apprentissage en particulier : le
-                    développement, le design et le marketing.</p>
-                <p>Grâce à ces trois domaines professionnels et à ce qui les entoure, je deviens ainsi quelqu'un de
-                    <span class="orange">professionnel</span> et qui possède un regard sur chacun de ses aspects, même
-                    si
-                    vous
-                    l'aurez compris, le développement est mon favori.
-                </p>
-            </div>
-        </section>
-        <section>
-            <div class="animTranslateLeft">
-                <h3>Maitrise Proactive de Blender :</h3>
-                <p>Depuis mes dernières années de lycée, en plus d'apprendre à coder, j'apprends en autodidacte le
-                    logiciel
-                    de modélisation
-                    3D <span class="orange">Blender</span>.</p>
-                <p>Ce logiciel est assez complexe lorsqu'on le découvre, mais j'ai appris à me familiariser en
-                    l'utilisant
-                    pour plusieurs projets. Depuis que je suis à MyDigitalSchool, j'apprends à créer de nouveaux modèles
-                    3D
-                    et ainsi les liés au code pour en faire des véritables merveilles !</p>
-            </div>
-        </section> -->
-            <section id="aboutMe">
-                <div class="animTranslateLeft">
-                    <h2>À propos de moi</h2>
-                    <p>
-                        J'ai découvert ma passion pour le développement en classe de Première grâce à la spécialité NSI,
-                        où
-                        j'ai réalisé mon premier vrai site web sur le jeu Minecraft en Markdown.
-                    </p>
-                    <p>
-                        Aujourd'hui étudiant à MyDigitalSchool Lyon, je me forme en développement. En parallèle, je
-                        maîtrise Blender en
-                        autodidacte, liant la modélisation 3D à mes projets de développement pour créer des expériences
-                        immersives et innovantes.
-                    </p>
+            <div>
+                <h2>Quelques projets</h2>
+                <div id="actu_projects">
+                    <ul id="preview_cards"></ul>
+                    <p class="justButton projectsFilter">Découvrir plus !</p>
                 </div>
-            </section>
-            <section id="skillsPC">
-                <h2>Mes compétences</h2>
-                <ul id="skills_cards"></ul>
-            </section>
-            <section id="skillsMobile">
-                <h2>Mes compétences</h2>
-                <ul id="skills_sentences"></ul>
-            </section>
-            <section>
-                <div>
-                    <h2>Quelques projets</h2>
-                    <div id="actu_projects">
-                        <ul id="preview_cards"></ul>
-                        <p class="justButton projectsFilter">Découvrir plus !</p>
+            </div>
+        </section>
+        <section id="skillsPC">
+            <h2>Mes compétences</h2>
+            <ul id="skills_cards"></ul>
+        </section>
+        <section id="skillsMobile">
+            <h2>Mes compétences</h2>
+            <ul id="skills_sentences"></ul>
+        </section>
+        <section>
+            <h2>À propos de moi</h2>
+            <div id="aboutMe" class="animTranslateLeft">
+                <p>
+                    J'ai découvert ma passion pour le développement en classe de Première grâce à la spécialité NSI,
+                    où
+                    j'ai réalisé mon premier vrai site web sur le jeu Minecraft en Markdown.
+                </p>
+                <p>
+                    Aujourd'hui étudiant à MyDigitalSchool Lyon, je me forme en développement. En parallèle, je
+                    maîtrise Blender en
+                    autodidacte, liant la modélisation 3D à mes projets de développement pour créer des expériences
+                    immersives et innovantes.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="year">
+                <div class="timeline"></div>
+                <div class="left-line infos-1"></div>
+                <div class="animTranslateLeft infos-1">
+                    <div class="left">
+                        <h3>Mai - Juillet 2024</h3>
+                        <ul>
+                            <p>Premier Stage Chez «La Cissonière» :</p>
+                            <li>Création d'un site web vitrine</li>
+                            <li>HTML, CSS, Javascript, PHP, MySQL</li>
+                            <li>Back office intégré pour modifier le site web</li>
+                            <li><a href="https://lacissoniere.fr">https://lacissoniere.fr</a></li>
+                        </ul>
                     </div>
                 </div>
-            </section>
+                <div class="right-line infos-2"></div>
+                <div class="animTranslateRight infos-2">
+                    <div class="right ">
+                        <h3>Septembre 2023 </h3>
+                        <ul>
+                            <li>Arrivée à MyDigitalSchool Lyon, étudiant Développeur Web</li>
+                            <li>Au top du classement de l'école de Mydigitalschool Lyon lors de My Creative Week</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="left-line infos-3"></div>
+                <div class="animTranslateLeft infos-3">
+                    <div class="left">
+                        <h3>Juillet 2023</h3>
+                        <ul>
+                            <li>Bac Général</li>
+                            <li>Spécialités NSI & Maths</li>
+                            <li>Certification Informatique PIX</li>
+                            <li>Saisonnier dans la Drôme « Vergers
+                                les brunots » - 3 semaines</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-line infos-4"></div>
+                <div class="animTranslateRight infos-4">
+                    <div class="right">
+                        <h3>2022</h3>
+                        <p>Création d'un site web avec GitHub en
+                            Markdown - Lycée</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="formContact">
+            <form action="https://formspree.io/f/mgveyaor" method="POST">
+                <h3>Contactez-moi !</h3>
+                <div id="div_form">
+                    <div class="form-group">
+                        <label>
+                            <p>Votre Email :<span class="orange">*</span></p>
+                            <input type="email" name="email" placeholder="Contact@gmail.com" required>
+                        </label>
+                    </div>
+                    <div class="form-group">
+
+                        <label>
+                            <p>Téléphone (facultatif) : </p>
+                            <input type="phone" name="phone" placeholder="0123456789">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <p>Votre Message :<span class="orange">*</span></p>
+                            <textarea name="message" placeholder="Votre Message" required></textarea>
+                        </label>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="infos_footer">
@@ -389,7 +322,7 @@
                 <h5>Liens Utiles</h5>
                 <ul>
                     <li>
-                        <a href="about-me">À propos de moi</a>
+                        <p class="orangeLink projectsFilter">Projets</p>
                     </li>
                     <li>
                         <a href="mentions-legales">Mentions Légales</a>

@@ -51,119 +51,17 @@
                     <li>
                         <div>
                             <ion-icon name="layers"></ion-icon>
-                            <p id="link_projects" class="projectsFilter">Projects</p>
-                            <ion-icon id="ion_icon_projects" name="chevron-down-outline"></ion-icon>
-                        </div>
-                        <ul id="Projects_container">
-                            <li class="container_links">
-                                <div>
-                                    <ion-icon name="code-slash"></ion-icon>
-                                    <p class="nav_links">Coding Projects</p>
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div>
-                                            <img src="images/la_cissoniere.svg" alt="Logo La Cissonière" loading="lazy">
-                                            <p class="nav_links projectsOverview">La Cissonière</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/Logo_Quantix.svg" alt="Logo Quantix Horizon"
-                                                loading="lazy">
-                                            <p class="nav_links projectsOverview">Quantix Horizon</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/logo_2final.svg" alt="Logo ChocoSpace" loading="lazy">
-                                            <p class="nav_links projectsOverview">ChocoSpace</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/github/icon_minecraft.svg"
-                                                alt="Logo Wiki Minecraft Skyblock" loading="lazy">
-                                            <p class="nav_links projectsOverview">Wiki Minecraft Skyblock</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/montagnes.svg" alt="Logo Montagne" loading="lazy">
-                                            <p class="nav_links projectsOverview">Landing Page - LME</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="container_links">
-                                <div>
-                                    <ion-icon name="cube-outline"></ion-icon>
-                                    <p class="nav_links">Blender 3D</p>
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <img src="images/mustang_icon.svg" alt="Logo Voiture Mustang GT" loading="lazy">
-                                        <p class="nav_links projectsOverview">Fond d'écran 3D "Mustang GT"</p>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/montagnes.svg" alt="Logo Montagne" loading="lazy">
-                                            <p class="nav_links projectsOverview">Modèle 3D - La Montagne Enchantée</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/Logo_Quantix.svg" alt="Logo Quantix Horizon"
-                                                loading="lazy">
-                                            <p class="nav_links projectsOverview">Modèle 3D - Quantix Horizon</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/champignons.svg" alt="Icon champignons" loading="lazy">
-                                            <p class="nav_links projectsOverview">Paysage 3D procédural</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="container_links">
-                                <div><img src="images/gearedit.svg" alt="icon engrenage" loading="lazy">
-                                    <p class="nav_links">Projects in progress</p>
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div>
-                                            <img src="images/GraceGloire.svg" alt="Logo Grace et Gloire" loading="lazy">
-                                            <p class="nav_links projectsOverview">Grâce et Gloire</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img src="images/ferrari_icon.svg" alt="Logo voiture ferrari"
-                                                loading="lazy">
-                                            <p class="nav_links projectsOverview">Fond d'écran 3D "Ferrari Portofino"</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div>
-                            <ion-icon name="school-sharp"></ion-icon>
-                            <a href="about-me" class="nav_links">À propos de moi</a>
+                            <p id="link_projects" class="projectsFilter">Projets</p>
+                            <ion-icon id="ion_icon_projects" name="chevron-forward-outline"></ion-icon>
                         </div>
                     </li>
                     <li>
                         <div>
                             <ion-icon name="chatbubbles"></ion-icon>
-                            <a href="contact " class="nav_links">Contacts</a>
+                            <a href="#formContact" class="nav_links closeMenu">Contacts</a>
                         </div>
                     </li>
-                     
+
                 </ol>
             </nav>
         </div>
@@ -205,9 +103,6 @@
                     <ul id="filter_cards"></ul>
                 </div>
             </div>
-        </div>
-        <div id="divLeft_overview" class="divLeft">
-            <div id="contentOverview"></div>
         </div>
     </header>
     <main>
@@ -695,6 +590,33 @@
                     En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux
                     tribunaux compétents.</p>
             </section>
+            <section id="formContact">
+                <form action="https://formspree.io/f/mgveyaor" method="POST">
+                    <h3>Contactez-moi !</h3>
+                    <div id="div_form">
+                        <div class="form-group">
+                            <label>
+                                <p>Votre Email :<span class="orange">*</span></p>
+                                <input type="email" name="email" placeholder="Contact@gmail.com" required>
+                            </label>
+                        </div>
+                        <div class="form-group">
+    
+                            <label>
+                                <p>Téléphone (facultatif) : </p>
+                                <input type="phone" name="phone" placeholder="0123456789">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <p>Votre Message :<span class="orange">*</span></p>
+                                <textarea name="message" placeholder="Votre Message" required></textarea>
+                            </label>
+                        </div>
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </section>
     </main>
     <footer>
         <div class="infos_footer">
@@ -734,7 +656,7 @@
                 <ul>
                     <li>
                          
-                         <a href="about-me">À propos de moi</a>
+                        <p class="orangeLink projectsFilter">Projets</p>
                     </li>
 
                     <li>

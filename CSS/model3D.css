@@ -1,7 +1,6 @@
 section {
     display: flex;
     justify-content: start;
-    align-items: start;
     flex-direction: column;
     max-width: 1420px;
     margin: 0 auto;

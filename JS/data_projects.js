@@ -2,7 +2,7 @@ export const my_projects = [
     {
         "description": "A showcase website with an integrated back office, allowing admins to log in and edit images, text, and links on the site.",
         "name": "La Cissonière",
-        "src": "images/lacissoniere/lacissoniere.webp",
+        "src": "images/projects/lacissoniere_project.webp",
         "alt": "Page d'accueil La Cissonière",
         "bg": "left",
         "title": "La Cissonière",
@@ -12,9 +12,9 @@ export const my_projects = [
         "url": "https://lacissoniere.fr"
     },
     {
-        "description": "Développement d'un site web pour une entreprise fictive proposant l'installation de colonies humaines sur une planète habitable, incluant une page d'inscription fictive. J'ai assuré la conception et l'intégration du site dans un délai restreint.",
+        "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
         "name": "Quantix Horizon",
-        "src": "images/Quantix_Horizon.webp",
+        "src": "images/projects/quantix_project.webp",
         "alt": "Page d'accueil Quantix Horizon",
         "bg": "right",
         "title": "Quantix Horizon",
@@ -26,7 +26,7 @@ export const my_projects = [
     {
         "description": "Conception d'un site web fictif avec un scroll horizontal sur Desktop.",
         "name": "ChocoSpace",
-        "src": "images/ChocoSpace_img.webp",
+        "src": "images/projects/chocospace_project.webp",
         "alt": "Page d'accueil ChocoSpace",
         "bg": "center",
         "title": "ChocoSpace",
@@ -38,7 +38,7 @@ export const my_projects = [
     {
         "description": "Proposition d'une landing page à La Montagne Enchantée.",
         "name": "Landing Page - LME",
-        "src": "images/landing_page_MontEnchant.webp",
+        "src": "images/projects/montagneEnchantee_project.webp",
         "alt": "Landing Page La Montagne Enchantée",
         "bg": "right",
         "title": "La Montagne Enchantée",
@@ -50,7 +50,7 @@ export const my_projects = [
     {
         "description": "Site web conçu en markdown, il a pour but d'informer sur le mode de jeu Skyblock de Minecraft.",
         "name": "Wiki Minecraft Skyblock",
-        "src": "images/siteweb_Minecraft_img.webp",
+        "src": "images/projects/minecraft_project.webp",
         "alt": "Page d'accueil site web minecraft",
         "bg": "center",
         "title": "Wiki Minecraft Skyblock",
@@ -117,7 +117,7 @@ export const my_projects = [
     {
         "description": "Association culturelle et cultuelle chrétienne",
         "name": "Grâce et Gloire",
-        "src": "images/graceetgloire.png",
+        "src": "images/projects/graceetgloire_project.webp",
         "alt": "Page d'accueil Grace & Gloire",
         "title": "Grace & Gloire",
         "bg": "center",
@@ -131,7 +131,7 @@ export const my_projects_actu = [
     {
         "description": "Un site web vitrine avec back office intégré, permettant aux admins de se connecter à un login et ensuite modifier chaque images, textes et liens sur le site web.",
         "url": "lacissoniere ",
-        "src": "images/lacissoniere/lacissoniere.webp",
+        "src": "images/projects/lacissoniere_project.webp",
         "alt": "Page d'accueil La Cissonière",
         "bg": "left",
         "title": "La Cissonière",
@@ -140,9 +140,9 @@ export const my_projects_actu = [
         "urlGitHub": "https://github.com/tim-vdb/lacissoniere"
     },
     {
-        "description": "Développement d'un site web pour une entreprise fictive proposant l'installation de colonies humaines sur une planète habitable, incluant une page d'inscription fictive. J'ai assuré la conception et l'intégration du site dans un délai restreint.",
+        "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
         "url": "quantix-horizon ",
-        "src": "images/Quantix_Horizon.webp",
+        "src": "images/projects/quantix_project.webp",
         "alt": "Page d'accueil Quantix Horizon",
         "bg": "right",
         "title": "Quantix Horizon",
@@ -179,7 +179,7 @@ export const coding = [
         "skill": "Sass",
     },
     {
-        "src": "images/compétences/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.webp",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
         "alt": "Logo Javascript",
         "skill": "JavaScript",
     },
@@ -194,7 +194,7 @@ export const coding = [
         "skill": "MySQL",
     },
     {
-        "src": "images/compétences/threeJS.webp",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg",
         "alt": "Logo Three.js",
         "skill": "Three.js",
     },
@@ -226,7 +226,7 @@ export const coding = [
 ]
 export const design = [
     {
-        "src": "images/compétences/blender.webp",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg",
         "alt": "Logo Blender",
         "skill": "Blender",
     }
