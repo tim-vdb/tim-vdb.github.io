@@ -1,5 +1,5 @@
-import { gsap } from "../node_modules/gsap/index.js";
-import { ScrollTrigger } from "../node_modules/gsap/ScrollTrigger.js";
+import { gsap } from "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js";
+import { ScrollTrigger } from "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js";
 
 import { my_projects, my_projects_actu, coding, design, CMS } from './data_projects.min.js';
 
