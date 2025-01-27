@@ -239,3 +239,16 @@ export const CMS = [
         "skill": "WordPress",
     }
 ]
+
+export const learning_skills = [
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "alt": "Logo React",
+        "skill": "React",
+    },
+    {
+        "src": "images/compétences/logo_GSAP.webp",
+        "alt": "Logo GSAP",
+        "skill": "GSAP",
+    }
+]
