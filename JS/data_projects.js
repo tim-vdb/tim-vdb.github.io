@@ -130,7 +130,7 @@ export const my_projects = [
 export const my_projects_actu = [
     {
         "description": "Un site web vitrine avec back office intégré, permettant aux admins de se connecter à un login et ensuite modifier chaque images, textes et liens sur le site web.",
-        "url": "lacissoniere ",
+        "url": "https://lacissoniere.fr",
         "src": "images/projects/lacissoniere_project.webp",
         "alt": "Page d'accueil La Cissonière",
         "bg": "left",
@@ -141,7 +141,7 @@ export const my_projects_actu = [
     },
     {
         "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
-        "url": "quantix-horizon ",
+        "url": "https://tim-vdb.github.io/Quantix_Horizon/Quantix",
         "src": "images/projects/quantix_project.webp",
         "alt": "Page d'accueil Quantix Horizon",
         "bg": "right",
