@@ -1,5 +1,5 @@
-import { my_projects, my_projects_actu, coding, design, CMS, learning_skills } from './data_projects.min.js';
-
+import { my_projects, my_projects_actu, coding, design, CMS, learning_skills } from './data_projects.js';
+import gsap from "gsap"
 gsap.registerPlugin(ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -305,12 +305,19 @@ document.addEventListener("DOMContentLoaded", function () {
                     case "WordPress":
                         name.style.color = "#21759B";
                         break;
-                    case "React":
+                    case "React.js":
                         name.style.color = "#0999e8";
                         break;
                     case "GSAP":
                         name.style.color = "#1b9443";
                         break;
+                    case "Tailwind CSS":
+                        name.style.color = "black";
+                        break;
+                    case "Next.js":
+                        name.style.color = "black";
+                        break;
+
                 }
                 cards.appendChild(name);
                 skills_cards.appendChild(cards)
@@ -428,11 +435,17 @@ document.addEventListener("DOMContentLoaded", function () {
                     case "WordPress":
                         name.style.color = "#21759B";
                         break;
-                    case "React":
+                    case "React.js":
                         name.style.color = "#0999e8";
                         break;
                     case "GSAP":
                         name.style.color = "#1b9443";
+                        break;
+                    case "Tailwind CSS":
+                        name.style.color = "black";
+                        break;
+                    case "Next.js":
+                        name.style.color = "black";
                         break;
                 }
                 cards.appendChild(name);
@@ -549,6 +562,15 @@ document.addEventListener("DOMContentLoaded", function () {
                         break;
                     case "In-Progress":
                         tag_cards.style.backgroundColor = "gray";
+                        break;
+                    case "React.js":
+                        tag_cards.style.backgroundColor = "#0C2942";
+                        break;
+                    case "Next.js":
+                        tag_cards.style.backgroundColor = "black";
+                        break;
+                    case "Tailwind CSS":
+                        tag_cards.style.backgroundColor = "#2582BB";
                         break;
                 }
 

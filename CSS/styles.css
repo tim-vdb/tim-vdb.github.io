@@ -664,7 +664,7 @@ header .divLeft {
     backdrop-filter: blur(0.7rem);
     border-radius: 10px;
     width: initial;
-    min-height: 400px;
+    min-height: 500px;
     background-color: #101010;
 }
 
@@ -1040,6 +1040,17 @@ header nav img {
     background-color: gray;
 }
 
+.React {
+    background-color: #0C2942;
+}
+
+.Next {
+    background-color: black;
+}
+
+.Tailwind_CSS {
+    background-color: #2582BB;
+}
 /* --------------------------Footer--------------------------- */
 
 footer {

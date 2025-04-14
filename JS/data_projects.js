@@ -1,5 +1,17 @@
 export const my_projects = [
     {
+        "description": "The Sonar2Text project is an initiative inspired and enhanced by the Free-Scribe project by SmolJames. This project aims to provide an innovative web application for real-time voice transcription to text and translation, utilizing advanced language models such as Whisper from Hugging Face.",
+        "name": "Sonar2Text",
+        "src": "images/projects/sonar2text.webp",
+        "alt": "Page d'accueil Sonar2Text",
+        "bg": "left",
+        "title": "Sonar2Text",
+        "title2": "Boucherie-Charcuterie-Artisanale",
+        "tags": ["React.js", "Tailwind CSS"],
+        "urlGitHub": "https://github.com/tim-vdb/sonar2text",
+        "url": "https://sonar2text.netlify.app"
+    },
+    {
         "description": "A showcase website with an integrated back office, allowing admins to log in and edit images, text, and links on the site.",
         "name": "La Cissonière",
         "src": "images/projects/lacissoniere_project.webp",
@@ -104,6 +116,17 @@ export const my_projects = [
         "tags": ["Blender"]
     },
     {
+        "description": "Création d'un outil de gestion de factures via URL ICAL.",
+        "url": "/",
+        "src": "images/projects/Mockup.webp",
+        "alt": "Mockup",
+        "bg": "left",
+        "title": "Bills-Manager",
+        // "title2": "Boucherie-Charcuterie-Artisanale",
+        "tags": ["In-Progress", "Next.js"],
+        "urlGitHub": "/"
+    },
+    {
         "description": "Je suis en train de réalisé un fond d'écran animé en 3D d'une Ferrari Portofino.",
         "name": 'Fond d\'écran 3D "Ferrari Portofino"',
         "src": "images/ferrari.png",
@@ -129,6 +152,18 @@ export const my_projects = [
 
 export const my_projects_actu = [
     {
+        "description": "The Sonar2Text project is an initiative inspired and enhanced by the Free-Scribe project by SmolJames. This project aims to provide an innovative web application for real-time voice transcription to text and translation, utilizing advanced language models such as Whisper from Hugging Face.",
+        "name": "Sonar2Text",
+        "src": "images/projects/sonar2text.webp",
+        "alt": "Page d'accueil Sonar2Text",
+        "bg": "left",
+        "title": "Sonar2Text",
+        "title2": "Boucherie-Charcuterie-Artisanale",
+        "tags": ["React.js", "Tailwind CSS"],
+        "urlGitHub": "https://github.com/tim-vdb/sonar2text",
+        "url": "https://sonar2text.netlify.app"
+    },
+    {
         "description": "Un site web vitrine avec back office intégré, permettant aux admins de se connecter à un login et ensuite modifier chaque images, textes et liens sur le site web.",
         "url": "https://lacissoniere.fr",
         "src": "images/projects/lacissoniere_project.webp",
@@ -140,26 +175,37 @@ export const my_projects_actu = [
         "urlGitHub": "https://github.com/tim-vdb/lacissoniere"
     },
     {
-        "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
-        "url": "https://tim-vdb.github.io/Quantix_Horizon/Quantix",
-        "src": "images/projects/quantix_project.webp",
-        "alt": "Page d'accueil Quantix Horizon",
-        "bg": "right",
-        "title": "Quantix Horizon",
-        "title2": "Projet de Partiel",
-        "tags": ["HTML", "CSS", "JS", "PHP"],
-        "urlGitHub": "https://github.com/tim-vdb/Quantix_Horizon"
+        "description": "Création d'un outil de gestion de factures via URL ICAL.",
+        "url": "/",
+        "src": "images/projects/Mockup.webp",
+        "alt": "Mockup",
+        "bg": "left",
+        "title": "Bills-Manager",
+        // "title2": "Boucherie-Charcuterie-Artisanale",
+        "tags": ["In-Progress", "Next.js"],
+        "urlGitHub": "/"
     },
-    {
-        "description": "Pendant environ deux mois, j'ai travaillé à la création d'un fond d'écran animé en 3D d'une Ford Mustang GT.",
-        "url": "mustang ",
-        "src": "images/test1_mustang_img.webp",
-        "alt": "Image fond d'écran Mustang GT",
-        "bg": "center",
-        "title": "Fond d'écran 3D",
-        "title2": "Mustang GT animé",
-        "tags": ["Blender"]
-    },
+    // {
+    //     "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
+    //     "url": "https://tim-vdb.github.io/Quantix_Horizon/Quantix",
+    //     "src": "images/projects/quantix_project.webp",
+    //     "alt": "Page d'accueil Quantix Horizon",
+    //     "bg": "right",
+    //     "title": "Quantix Horizon",
+    //     "title2": "Projet de Partiel",
+    //     "tags": ["HTML", "CSS", "JS", "PHP"],
+    //     "urlGitHub": "https://github.com/tim-vdb/Quantix_Horizon"
+    // },
+    // {
+    //     "description": "Pendant environ deux mois, j'ai travaillé à la création d'un fond d'écran animé en 3D d'une Ford Mustang GT.",
+    //     "url": "mustang ",
+    //     "src": "images/test1_mustang_img.webp",
+    //     "alt": "Image fond d'écran Mustang GT",
+    //     "bg": "center",
+    //     "title": "Fond d'écran 3D",
+    //     "title2": "Mustang GT animé",
+    //     "tags": ["Blender"]
+    // },
 ]
 
 export const coding = [
@@ -244,11 +290,16 @@ export const learning_skills = [
     {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
         "alt": "Logo React",
-        "skill": "React",
+        "skill": "React.js",
     },
     {
         "src": "images/compétences/logo_GSAP.webp",
         "alt": "Logo GSAP",
         "skill": "GSAP",
+    },
+    {
+        "src": "images/compétences/next.jpeg",
+        "alt": "Logo Next.js",
+        "skill": "Next.js",
     }
 ]
