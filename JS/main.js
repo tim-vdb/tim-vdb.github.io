@@ -1,5 +1,5 @@
 import { my_projects, my_projects_actu, coding, design, CMS, learning_skills } from './data_projects.js';
-import gsap from "gsap"
+// import gsap from "gsap"
 gsap.registerPlugin(ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", function () {
