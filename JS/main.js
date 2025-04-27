@@ -312,15 +312,21 @@ document.addEventListener("DOMContentLoaded", function () {
                         name.style.color = "#1b9443";
                         break;
                     case "Tailwind CSS":
-                        name.style.color = "black";
+                        name.style.color = "#2582BB";
                         break;
                     case "Next.js":
                         name.style.color = "black";
                         break;
+                    case "Prisma":
+                        name.style.color = "#2D3748";
+                        break;
 
                 }
                 cards.appendChild(name);
-                skills_cards.appendChild(cards)
+                const link = document.createElement("a");
+                link.href = tab_skill.link
+                link.appendChild(cards)
+                skills_cards.appendChild(link)
             });
         };
 
@@ -442,7 +448,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         name.style.color = "#1b9443";
                         break;
                     case "Tailwind CSS":
-                        name.style.color = "black";
+                        name.style.color = "#2582BB";
                         break;
                     case "Next.js":
                         name.style.color = "black";

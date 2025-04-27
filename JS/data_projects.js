@@ -1,5 +1,16 @@
 export const my_projects = [
     {
+        "description": "A school project that generates a bill from ICAL calendar. Made in Next.js - Tailwind CSS - Prisma - Postgres.",
+        "url": "https://bills-manager-tvdb.netlify.app",
+        "src": "images/projects/bills-manager.webp",
+        "alt": "Bills-Manager Home",
+        "bg": "left",
+        "title": "Bills-Manager",
+        "title2": "A school project in one week to create Bills-Manager and learn Next.js",
+        "tags": ["Next.js", "Tailwind CSS"],
+        "urlGitHub": "https://github.com/tim-vdb/bills-manager"
+    },
+    {
         "description": "The Sonar2Text project is an initiative inspired and enhanced by the Free-Scribe project by SmolJames. This project aims to provide an innovative web application for real-time voice transcription to text and translation, utilizing advanced language models such as Whisper from Hugging Face.",
         "name": "Sonar2Text",
         "src": "images/projects/sonar2text.webp",
@@ -24,7 +35,7 @@ export const my_projects = [
         "url": "https://lacissoniere.fr"
     },
     {
-        "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
+        "description": "Site fictif créé pendant un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
         "name": "Quantix Horizon",
         "src": "images/projects/quantix_project.webp",
         "alt": "Page d'accueil Quantix Horizon",
@@ -116,17 +127,6 @@ export const my_projects = [
         "tags": ["Blender"]
     },
     {
-        "description": "Création d'un outil de gestion de factures via URL ICAL.",
-        "url": "/",
-        "src": "images/projects/Mockup.webp",
-        "alt": "Mockup",
-        "bg": "left",
-        "title": "Bills-Manager",
-        // "title2": "Boucherie-Charcuterie-Artisanale",
-        "tags": ["In-Progress", "Next.js"],
-        "urlGitHub": "/"
-    },
-    {
         "description": "Je suis en train de réalisé un fond d'écran animé en 3D d'une Ferrari Portofino.",
         "name": 'Fond d\'écran 3D "Ferrari Portofino"',
         "src": "images/ferrari.png",
@@ -152,6 +152,17 @@ export const my_projects = [
 
 export const my_projects_actu = [
     {
+        "description": "A school project that generates a bill from ICAL calendar. It was created in one week and for first time learning Next.js. Made in Next.js - Tailwind CSS - Prisma - Postgres.",
+        "url": "https://bills-manager-tvdb.netlify.app",
+        "src": "images/projects/bills-manager.webp",
+        "alt": "Bills-Manager Home",
+        "bg": "left",
+        "title": "Bills-Manager",
+        // "title2": "",
+        "tags": ["Next.js", "Tailwind CSS"],
+        "urlGitHub": "https://github.com/tim-vdb/bills-manager"
+    },
+    {
         "description": "The Sonar2Text project is an initiative inspired and enhanced by the Free-Scribe project by SmolJames. This project aims to provide an innovative web application for real-time voice transcription to text and translation, utilizing advanced language models such as Whisper from Hugging Face.",
         "name": "Sonar2Text",
         "src": "images/projects/sonar2text.webp",
@@ -173,17 +184,6 @@ export const my_projects_actu = [
         "title2": "Boucherie-Charcuterie-Artisanale",
         "tags": ["HTML", "CSS", "JS", "PHP"],
         "urlGitHub": "https://github.com/tim-vdb/lacissoniere"
-    },
-    {
-        "description": "Création d'un outil de gestion de factures via URL ICAL.",
-        "url": "/",
-        "src": "images/projects/Mockup.webp",
-        "alt": "Mockup",
-        "bg": "left",
-        "title": "Bills-Manager",
-        // "title2": "Boucherie-Charcuterie-Artisanale",
-        "tags": ["In-Progress", "Next.js"],
-        "urlGitHub": "/"
     },
     // {
     //     "description": "Site fictif créé pour un partiel : colonisation humaine sur une planète, avec page d'inscription interactive. Réalisées sous contrainte de temps.",
@@ -213,61 +213,79 @@ export const coding = [
         "src": "images/compétences/html.webp",
         "alt": "Logo HTML",
         "skill": "HTML",
+        "link": "https://developer.mozilla.org/fr/docs/Web/HTML",
     },
     {
         "src": "images/compétences/css-3.svg",
         "alt": "Logo CSS",
         "skill": "CSS",
+        "link": "https://developer.mozilla.org/fr/docs/Web/CSS",
+    },
+    {
+        "src": "images/compétences/tailwind-css.png",
+        "alt": "Logo Tailwind CSS",
+        "skill": "Tailwind CSS",
+        "link": "https://tailwindcss.com",
     },
     {
         "src": "images/compétences/sass-logo.webp",
         "alt": "Logo Sass",
         "skill": "Sass",
+        "link": "https://sass-lang.com",
     },
     {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
         "alt": "Logo Javascript",
         "skill": "JavaScript",
+        "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript",
     },
     {
         "src": "images/compétences/php-logo.webp",
         "alt": "Logo PHP",
         "skill": "PHP",
+        "link": "https://www.php.net",
     },
     {
         "src": "images/compétences/mysql-logo.webp",
         "alt": "Logo MySQL",
         "skill": "MySQL",
+        "link": "https://www.mysql.com",
     },
     {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg",
         "alt": "Logo Three.js",
         "skill": "Three.js",
+        "link": "https://threejs.org",
     },
     {
         "src": "images/compétences/git-logo.webp",
         "alt": "Logo Git",
         "skill": "Git",
+        "link": "https://git-scm.com",
     },
     {
         "src": "images/compétences/node-js-logo.webp",
         "alt": "Logo Node.js",
         "skill": "Node.js",
+        "link": "https://nodejs.org",
     },
     {
         "src": "images/compétences/express-js.webp",
         "alt": "Logo Express.js",
         "skill": "Express.js",
+        "link": "https://expressjs.com",
     },
     {
         "src": "images/compétences/markdown.svg",
         "alt": "Logo Markdown",
         "skill": "Markdown",
+        "link": "https://developer.mozilla.org/fr/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN",
     },
     {
         "src": "images/compétences/python.webp",
         "alt": "Logo Python",
         "skill": "Python",
+        "link": "https://www.python.org",
     }
 ]
 export const design = [
@@ -275,6 +293,7 @@ export const design = [
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg",
         "alt": "Logo Blender",
         "skill": "Blender",
+        "link": "https://www.blender.org",
     }
 ]
 
@@ -283,6 +302,7 @@ export const CMS = [
         "src": "images/compétences/wordpress-logo.webp",
         "alt": "Logo WordPress",
         "skill": "WordPress",
+        "link": "https://wordpress.com",
     }
 ]
 
@@ -291,15 +311,24 @@ export const learning_skills = [
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
         "alt": "Logo React",
         "skill": "React.js",
+        "link": "https://fr.react.dev",
     },
     {
         "src": "images/compétences/logo_GSAP.webp",
         "alt": "Logo GSAP",
         "skill": "GSAP",
+        "link": "https://gsap.com",
     },
     {
         "src": "images/compétences/next.jpeg",
         "alt": "Logo Next.js",
         "skill": "Next.js",
+        "link": "https://nextjs.org",
+    },
+    {
+        "src": "images/compétences/prisma.jpg",
+        "alt": "Logo Prisma",
+        "skill": "Prisma",
+        "link": "https://www.prisma.io",
     }
 ]

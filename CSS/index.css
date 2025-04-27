@@ -40,6 +40,10 @@ header {
     width: 100%;
 }
 
+#skills_cards a, #learnSkills_cards a {
+    text-decoration: none;
+}
+
 #skills_cards .cards, #learnSkills_cards .cards {
     display: flex;
     justify-content: center;
