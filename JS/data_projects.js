@@ -138,6 +138,15 @@ export const my_projects = [
         // "tags": ["Blender"]
     },
     {
+        "description": "A projet who users can share resources about everythings for everyone.",
+        "name": "LibrazeUp",
+        "src": "images/projects/Mockup.webp",
+        "alt": "Page d'accueil LibrazeUp",
+        "title": "LibrazeUp",
+        "bg": "center",
+        "tags": ["In-Progress", "Next.js", "Tailwind CSS"]
+    },
+    {
         "description": "Association culturelle et cultuelle chrétienne",
         "name": "Grâce et Gloire",
         "src": "images/projects/graceetgloire_project.webp",
