@@ -1,6 +1,6 @@
 export const my_projects = [
     {
-        "description": "A school project that generates a bill from ICAL calendar. Made in Next.js - Tailwind CSS - Prisma - Postgres.",
+        "description": "Un projet scolaire qui génère une facture à partir du calendrier ICAL. Il a été créé en une semaine et pour une première prise en main de Next.js. Réalisé en Next.js - Tailwind CSS - Prisma - Postgres.",
         "url": "https://bills-manager-tvdb.netlify.app",
         "src": "images/projects/bills-manager.webp",
         "alt": "Bills-Manager Home",
@@ -11,7 +11,7 @@ export const my_projects = [
         "urlGitHub": "https://github.com/tim-vdb/bills-manager"
     },
     {
-        "description": "The Sonar2Text project is an initiative inspired and enhanced by the Free-Scribe project by SmolJames. This project aims to provide an innovative web application for real-time voice transcription to text and translation, utilizing advanced language models such as Whisper from Hugging Face.",
+        "description": "Le projet Sonar2Text est une initiative inspirée et améliorée par le projet Free-Scribe de SmolJames. Ce projet vise à fournir une application web innovante pour la transcription vocale en temps réel vers le texte et la traduction, en utilisant des modèles de langage avancés tels que Whisper de Hugging Face.",
         "name": "Sonar2Text",
         "src": "images/projects/sonar2text.webp",
         "alt": "Page d'accueil Sonar2Text",
@@ -23,7 +23,7 @@ export const my_projects = [
         "url": "https://sonar2text.netlify.app"
     },
     {
-        "description": "A showcase website with an integrated back office, allowing admins to log in and edit images, text, and links on the site.",
+        "description": "Un site web vitrine avec un back-office intégré, permettant aux administrateurs de se connecter et de modifier les images, le texte et les liens sur le site.",
         "name": "La Cissonière",
         "src": "images/projects/lacissoniere_project.webp",
         "alt": "Page d'accueil La Cissonière",
@@ -138,13 +138,15 @@ export const my_projects = [
         // "tags": ["Blender"]
     },
     {
-        "description": "A projet who users can share resources about everythings for everyone.",
+        "description": "Un projet où les utilisateurs peuvent partager des ressources sur tout et pour tous.",
         "name": "LibrazeUp",
         "src": "images/projects/Mockup.webp",
         "alt": "Page d'accueil LibrazeUp",
         "title": "LibrazeUp",
         "bg": "center",
-        "tags": ["In-Progress", "Next.js", "Tailwind CSS"]
+        "tags": ["In-Progress", "Next.js", "Tailwind CSS"],
+        "urlGitHub": "/",
+        "url": "/"
     },
     {
         "description": "Association culturelle et cultuelle chrétienne",
@@ -161,7 +163,7 @@ export const my_projects = [
 
 export const my_projects_actu = [
     {
-        "description": "A school project that generates a bill from ICAL calendar. It was created in one week and for first time learning Next.js. Made in Next.js - Tailwind CSS - Prisma - Postgres.",
+        "description": "Un projet scolaire qui génère une facture à partir du calendrier ICAL. Il a été créé en une semaine et pour une première prise en main de Next.js. Réalisé en Next.js - Tailwind CSS - Prisma - Postgres.",
         "url": "https://bills-manager-tvdb.netlify.app",
         "src": "images/projects/bills-manager.webp",
         "alt": "Bills-Manager Home",
@@ -172,7 +174,7 @@ export const my_projects_actu = [
         "urlGitHub": "https://github.com/tim-vdb/bills-manager"
     },
     {
-        "description": "The Sonar2Text project is an initiative inspired and enhanced by the Free-Scribe project by SmolJames. This project aims to provide an innovative web application for real-time voice transcription to text and translation, utilizing advanced language models such as Whisper from Hugging Face.",
+        "description": "Le projet Sonar2Text est une initiative inspirée et améliorée par le projet Free-Scribe de SmolJames. Ce projet vise à fournir une application web innovante pour la transcription vocale en temps réel vers le texte et la traduction, en utilisant des modèles de langage avancés tels que Whisper de Hugging Face.",
         "name": "Sonar2Text",
         "src": "images/projects/sonar2text.webp",
         "alt": "Page d'accueil Sonar2Text",
