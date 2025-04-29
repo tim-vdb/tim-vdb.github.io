@@ -325,6 +325,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 cards.appendChild(name);
                 const link = document.createElement("a");
                 link.href = tab_skill.link
+                link.target = '_blank';
                 link.appendChild(cards)
                 skills_cards.appendChild(link)
             });
